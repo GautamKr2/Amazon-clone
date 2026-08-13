@@ -4,10 +4,153 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    border: border-box;
 }
 
-body {
-    line-height: 1.6;
-    background: #f9f9f9;
-    color: #333;
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+}
+
+.logo {
+    height: 50px;
+    width: 110px;
+    background-image: url("resources/amazon_logo.png");
+    background-size: cover;
+}
+
+.border {
+    border: 1.4px solid #0f1111;
+}
+
+.border:hover {
+    border: 1.4px solid white;
+}
+
+
+/* Box 2 */
+#add-type {
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 18px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.second {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Box 3 */
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 50vw;
+    background-color: rgb(252, 180, 98);
+    border: 2px solid #0f1111;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.search-select {
+    width: 50px;
+    background-color: #e6e6e6;
+    text-align: center;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-select:focus {
+    border: 2.5px solid rgb(252, 180, 98);
+}
+
+#search-field {
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 8px;
+    border: none;
+}
+
+#search-field:focus {
+    outline: none;
+}
+
+#search-icon {
+    width: 55px;
+    font-size: 1.1rem;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-search:has(input:focus) {
+    border: 2.5px solid rgb(252, 180, 98);
+}
+
+
+/* Box 4, and 5 */
+span {
+    font-size: 12px;
+}
+
+
+/* Box 6 */
+.nav-cart {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-cart i {
+    font-size: 25px;
+    margin-right: 4px;
+}
+
+
+
+/* Panel Styling */
+.panel {
+    background-color: #232f3e;
+    color: #ffffff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all i {
+    font-size: 1.1rem;
+}
+
+.panel-all {
+    font-weight: 600;
+}
+
+.panel-options {
+    width: 75%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.panel-options p {
+    display: inline;
+    margin-right: 1rem;
+    padding: 3px;
 }
