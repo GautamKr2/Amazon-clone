@@ -154,3 +154,77 @@ span {
     margin-right: 1rem;
     padding: 3px;
 }
+
+
+
+
+/* Hero Section or Content Section */
+.hero-section {
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(255,255,255, 0) 0%,
+            rgba(255,255,255, 0.2) 30%,
+            rgba(255,255,255, 0.5) 60%,
+            rgba(255,255,255, 0.85) 100%
+        ),
+        url("/resources/main_img.jpg");
+    background-size: cover;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-msg {
+    font-size: 14px;
+    background-color: #bd83e0a6;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 96px;
+}
+
+.hero-msg a {
+    color: #2162a1;
+}
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: -26vh;
+    z-index: 2;
+    background-color: #d8bce3c9;
+}
+
+.box {
+    background-color: white;
+    height: 58vh;
+    width: 22vw;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin: 1rem;
+}
+
+.box-content p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.box-content div {
+    height: 250px;
+    background-size: cover;
+    margin: 1rem 0 1rem 0;
+}
+
+.box-content a {
+    text-decoration: none;
+}
