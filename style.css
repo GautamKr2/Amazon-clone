@@ -228,3 +228,116 @@ span {
 .box-content a {
     text-decoration: none;
 }
+
+
+
+/* Footer */
+.foot-panel1 {
+    height: 2.7rem;
+    background-color: #344558;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel1:hover {
+    background-color: #344558ee;
+}
+
+.foot-panel1 a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+.foot-panel1 a:hover {
+    color: #d493eeeb;
+}
+
+
+.foot-panel2 {
+    background-color: #1d2e42;
+    padding: 2.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+ul a {
+    color: #dddddd;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0.3rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    border-color: #27323e;
+}
+
+.foot-panel3 {
+    height: 3.5rem;
+    background-color: #1d2e42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 .logo {
+    margin-right: 4.5rem;
+}
+
+.panel3-cnt {
+    display: flex;
+    border: 1px solid #8ea6c0;
+    border-radius: 3px;
+    color: white;
+    padding: 0.4rem;
+    margin-right: 0.6rem;
+}
+
+.language i {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.country i {
+    margin-right: 1rem;
+}
+
+
+.foot-panel4 {
+    background-color: #0a1727;
+    color: #dddddd;
+    padding: 1rem;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #dddddd;
+    padding: 0 0.5rem 0.5rem;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+#copy-right {
+    padding-top: 0.4rem;
+}
